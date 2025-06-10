@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+   padding: 0;
+    background-color: #ffffff;
+    
+}
+
+/* Top Container Styles */
+.top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e4f9f5;
+    min-height: 60vh;
+    padding-top: 250px;
+}
+
+/* Name Styling */
+.name {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 75px;
+    margin: 0;
+    color: #66bfbf;
+}
+
+/* Custom h2 Styling */
+.custom-heading {
+    color: #66bfbf;
+    font-size: 2rem;
+}
+
+/* Span Styling */
+.pro {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Mountain Image Styling */
+.mountain {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 50px;
+}
+
+/* Image Styling */
+.img{
+    
+     height:400px;
+     border-radius: 100%;
+     border: 1px solid black;
+}
+
+.custom-greeting{
+    padding-top: 20px;
+     font-size: 30px;
+    color: #66bfbf;
+}
+
+.font-style{
+    font-family: serif;
+}
+
+.bottom-img{
+    height:500px;
+    padding-top: 50px;
+}
+
+.getin-touch{
+    font-size: 30px;
+    color: #66bfbf;
+}
+
+.custom-button {
+    font-size: 20px;
+    background-color: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border: none;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white !important;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+    background-color: #11999e;
+    transform: scale(1.05);
+}
+
+
+.custom-footer{
+ background-color: #11999e;
+    color: black;
+    width: 100%;
+    margin-top: auto;
+}
